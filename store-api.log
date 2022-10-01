@@ -1,3 +1,10 @@
 2022-10-01T15:20:14.630Z [store-api] error POST  - Name, CPF, Email e Address são obrigatórios!
 2022-10-01T15:20:47.682Z [store-api] error POST  - Name, CPF, Email e Address são obrigatórios!
 2022-10-01T15:22:11.181Z [store-api] error POST  - Name, CPF, Email e Address são obrigatórios!
+2022-10-01T17:37:14.641Z [store-api] error POST  - Name, CPF, Email e Address são obrigatórios!
+2022-10-01T17:38:40.021Z [store-api] error POST  - Unexpected token } in JSON at position 145
+2022-10-01T17:38:45.045Z [store-api] error POST  - Name, CPF, Email e Address são obrigatórios!
+2022-10-01T17:39:05.742Z [store-api] error POST  - connect is not a function
+2022-10-01T17:40:13.761Z [store-api] error POST  - address is not defined
+2022-10-01T17:41:28.824Z [store-api] error POST  - res.re is not a function
+2022-10-01T17:43:18.314Z [store-api] info POST /client - {"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}

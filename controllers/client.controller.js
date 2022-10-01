@@ -7,7 +7,7 @@ async function createClient(req, res, next) {
         if( !client.name || !client.cpf || !client.phone || !client.email || !client.address ) {
             throw new Error("Name, CPF, Email e Address são obrigatórios!")
         }
-        res.re(await ClientService.createClient(client));
+        res.send(await ClientService.createClient(client));
         logger.info(`POST /client - ${JSON.stringify(client)}`);
     } catch (err) {
         next(err);
