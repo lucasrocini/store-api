@@ -61,3 +61,27 @@
 2022-10-01T19:59:00.197Z [store-api] info GET /supplier
 2022-10-01T19:59:39.173Z [store-api] error POST  - Supplier ID informado não existe!
 2022-10-01T19:59:46.367Z [store-api] info POST /product - {"product_id":7,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T20:01:21.817Z [store-api] error PUT  - Supplier ID informado não existe!
+2022-10-01T20:01:26.394Z [store-api] info PUT /product - {"product_id":3,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T20:10:32.942Z [store-api] error POST  - insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-10-01T20:11:05.916Z [store-api] error POST  - insert or update on table "sales" violates foreign key constraint "fk_products"
+2022-10-01T20:11:09.792Z [store-api] info POST /sale - {"sale_id":3,"client_id":2,"product_id":2,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2022-10-01T20:11:35.360Z [store-api] info POST /sale - {"sale_id":4,"client_id":2,"product_id":2,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2022-10-01T20:11:38.622Z [store-api] info GET /sale
+2022-10-01T20:11:55.717Z [store-api] info PUT /sale - {"sale_id":3,"client_id":3,"product_id":3,"value":"8000","date":"2000-01-01T02:00:00.000Z"}
+2022-10-01T20:12:04.263Z [store-api] info GET /sale
+2022-10-01T20:12:06.580Z [store-api] info GET /sale
+2022-10-01T20:12:14.650Z [store-api] info POST /sale - {"sale_id":5,"client_id":2,"product_id":2,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2022-10-01T20:12:20.048Z [store-api] info GET /sale
+2022-10-01T20:12:22.827Z [store-api] info GET /sale
+2022-10-01T20:12:26.489Z [store-api] info DELETE /sale
+2022-10-01T20:12:28.668Z [store-api] info GET /sale
+2022-10-01T20:14:42.321Z [store-api] error POST  - Product ID informado não existe!
+2022-10-01T20:14:45.827Z [store-api] error POST  - Client ID informado não existe!
+2022-10-01T20:14:58.500Z [store-api] info POST /sale - {"sale_id":6,"client_id":3,"product_id":3,"value":"6500","date":"2000-01-01T02:00:00.000Z"}
+2022-10-01T20:16:23.739Z [store-api] error POST  - Client ID informado não existe!
+2022-10-01T20:16:25.624Z [store-api] error POST  - Client ID informado não existe!,Product ID informado não existe!
+2022-10-01T20:19:19.785Z [store-api] error POST  - Client ID informado não existe!,Product ID informado não existe!
+2022-10-01T20:19:59.285Z [store-api] error POST  - Client ID informado não existe!,Product ID informado não existe!
+2022-10-01T20:23:56.599Z [store-api] error POST  - errors is not defined
+2022-10-01T20:24:03.116Z [store-api] error POST  - Client ID informado não existe!Product ID informado não existe!
