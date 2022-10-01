@@ -45,3 +45,19 @@
 2022-10-01T19:13:56.007Z [store-api] info POST /supplier - {"supplier_id":3,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
 2022-10-01T19:13:56.650Z [store-api] info POST /supplier - {"supplier_id":4,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
 2022-10-01T19:13:58.292Z [store-api] info GET /supplier
+2022-10-01T19:23:58.795Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-10-01T19:24:16.120Z [store-api] info POST /product - {"product_id":2,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:24:21.278Z [store-api] info POST /product - {"product_id":3,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:36:44.671Z [store-api] info GET /product
+2022-10-01T19:37:07.573Z [store-api] info PUT /product - {"product_id":3,"supplier_id":3,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:37:23.632Z [store-api] info GET /product
+2022-10-01T19:37:48.581Z [store-api] info POST /product - {"product_id":4,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:37:49.251Z [store-api] info POST /product - {"product_id":5,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:37:50.031Z [store-api] info POST /product - {"product_id":6,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
+2022-10-01T19:37:56.358Z [store-api] info DELETE /product
+2022-10-01T19:38:00.026Z [store-api] info GET /product
+2022-10-01T19:58:48.518Z [store-api] info GET /product
+2022-10-01T19:58:56.901Z [store-api] info GET /supplier
+2022-10-01T19:59:00.197Z [store-api] info GET /supplier
+2022-10-01T19:59:39.173Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-01T19:59:46.367Z [store-api] info POST /product - {"product_id":7,"supplier_id":2,"name":"Notebook Acer","description":"Notebook Acer i5 16GB RAM","value":"5000","stock":100}
