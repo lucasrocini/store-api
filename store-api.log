@@ -24,3 +24,19 @@
 2022-10-01T18:39:35.462Z [store-api] info GET /client
 2022-10-01T18:39:51.055Z [store-api] info GET /client
 2022-10-01T18:39:53.606Z [store-api] info DELETE /client
+2022-10-01T18:48:52.996Z [store-api] info POST /client - {"client_id":6,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T18:49:36.384Z [store-api] error PUT  - Client ID, Name, CPF, Email e Address são obrigatórios!
+2022-10-01T18:49:50.828Z [store-api] info PUT /client - {"client_id":6,"name":"João 2","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T18:49:53.937Z [store-api] info GET /client
+2022-10-01T18:50:02.385Z [store-api] info PUT /client - undefined
+2022-10-01T19:10:49.018Z [store-api] info POST /supplier - {"supplier_id":1,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T19:12:02.056Z [store-api] error PUT  - Supplier ID, Name, CNPJ, Email e Address são obrigatórios!
+2022-10-01T19:12:05.084Z [store-api] info PUT /supplier - {"supplier_id":1,"name":"Eletro La","cnpj":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T19:12:08.705Z [store-api] info GET /supplier
+2022-10-01T19:12:20.322Z [store-api] info POST /supplier - {"supplier_id":2,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T19:12:24.446Z [store-api] error DELETE  - res is not defined
+2022-10-01T19:12:34.437Z [store-api] info GET /supplier
+2022-10-01T19:12:36.716Z [store-api] info GET /supplier
+2022-10-01T19:12:39.795Z [store-api] info GET /supplier
+2022-10-01T19:12:56.706Z [store-api] error DELETE  - res is not defined
+2022-10-01T19:13:20.810Z [store-api] error DELETE  - res is not defined
