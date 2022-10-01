@@ -7,13 +7,23 @@ async function createSale(sale){
     if(! await ClientRepository.getClient(sale.client_id)) {
         error = "Client ID informado não existe!";
     }  
-    if(! await ProductRepository.getProduct(sale.product_id)) {
+    const product = await ProductRepository.getProduct(sale.product_id);
+    if(!product) {
         error += "Product ID informado não existe!";
     }     
     if(error) {
         throw new Error(error);
     }
-    return await SaleRepository.insertSale(sale);
+
+    
+   if(product.stock > 0 ) {
+        sale =  await SaleRepository.insertSale(sale);
+        product.stock--;
+        await ProductRepository.updateProduct(product);
+        return sale;
+   } else {
+    throw new Error("O produto informado não possui estoque");
+   }
 }
 
 async function getSales(){

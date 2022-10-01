@@ -85,3 +85,14 @@
 2022-10-01T20:19:59.285Z [store-api] error POST  - Client ID informado não existe!,Product ID informado não existe!
 2022-10-01T20:23:56.599Z [store-api] error POST  - errors is not defined
 2022-10-01T20:24:03.116Z [store-api] error POST  - Client ID informado não existe!Product ID informado não existe!
+2022-10-01T20:24:34.349Z [store-api] error POST  - Client ID informado não existe!Product ID informado não existe!
+2022-10-01T20:24:41.440Z [store-api] info PUT /sale - undefined
+2022-10-01T20:24:47.981Z [store-api] info PUT /sale - undefined
+2022-10-01T20:24:51.356Z [store-api] error PUT  - Client ID informado não existe!
+2022-10-01T20:24:54.538Z [store-api] error PUT  - Client ID informado não existe!Product ID informado não existe!
+2022-10-01T20:24:57.833Z [store-api] error PUT  - Product ID informado não existe!
+2022-10-01T20:31:21.612Z [store-api] info GET /product
+2022-10-01T20:31:50.963Z [store-api] error POST  - O produto informado não possui estoque
+2022-10-01T20:32:25.642Z [store-api] error POST  - O produto informado não possui estoque
+2022-10-01T20:32:30.566Z [store-api] info GET /product
+2022-10-01T20:32:45.225Z [store-api] error POST  - O produto informado não possui estoque
