@@ -40,3 +40,8 @@
 2022-10-01T19:12:39.795Z [store-api] info GET /supplier
 2022-10-01T19:12:56.706Z [store-api] error DELETE  - res is not defined
 2022-10-01T19:13:20.810Z [store-api] error DELETE  - res is not defined
+2022-10-01T19:13:50.441Z [store-api] info DELETE /supplier
+2022-10-01T19:13:53.094Z [store-api] info GET /supplier
+2022-10-01T19:13:56.007Z [store-api] info POST /supplier - {"supplier_id":3,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T19:13:56.650Z [store-api] info POST /supplier - {"supplier_id":4,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-01T19:13:58.292Z [store-api] info GET /supplier
