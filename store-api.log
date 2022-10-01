@@ -19,3 +19,8 @@
 2022-10-01T18:28:28.438Z [store-api] error GET  - Cannot read properties of undefined (reading 'id')
 2022-10-01T18:29:15.685Z [store-api] info GET /client
 2022-10-01T18:29:19.067Z [store-api] info GET /client
+2022-10-01T18:39:24.488Z [store-api] info GET /client
+2022-10-01T18:39:32.011Z [store-api] info DELETE /client
+2022-10-01T18:39:35.462Z [store-api] info GET /client
+2022-10-01T18:39:51.055Z [store-api] info GET /client
+2022-10-01T18:39:53.606Z [store-api] info DELETE /client
