@@ -35,7 +35,7 @@ async function getSupplier(req, res, next) {
 async function updateSupplier(req, res, next) {
     try {
         let supplier = req.body;
-        if( !supplier.supplier_id || !supplier.name || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address ) {
+        if( !supplier.supplierId || !supplier.name || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address ) {
             throw new Error("Supplier ID, Name, CNPJ, Email e Address são obrigatórios!")
         }
         supplier = await SupplierService.updateSupplier(supplier);

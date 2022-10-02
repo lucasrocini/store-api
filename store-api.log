@@ -125,3 +125,37 @@
 2022-10-02T13:54:08.000Z [store-api] info POST /client - {"clientId":7,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
 2022-10-02T13:54:11.258Z [store-api] info POST /client - {"clientId":8,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
 2022-10-02T13:54:33.634Z [store-api] error PUT  - Client ID, Name, CPF, Email e Address são obrigatórios!
+2022-10-02T13:55:04.920Z [store-api] info PUT /client - {"clientId":8,"name":"João 2","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:55:25.998Z [store-api] info PUT /client - {"clientId":8,"name":"João 3","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:55:34.369Z [store-api] info GET /client
+2022-10-02T13:55:42.783Z [store-api] info DELETE /client
+2022-10-02T13:55:46.256Z [store-api] error GET  - connect is not a function
+2022-10-02T13:55:49.779Z [store-api] info GET /client
+2022-10-02T13:55:58.948Z [store-api] info POST /client - {"clientId":9,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:55:59.809Z [store-api] info POST /client - {"clientId":10,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:56:02.219Z [store-api] info GET /client
+2022-10-02T13:56:08.656Z [store-api] info DELETE /client
+2022-10-02T13:56:11.339Z [store-api] info GET /client
+2022-10-02T13:56:17.137Z [store-api] info GET /client
+2022-10-02T13:58:36.410Z [store-api] info GET /supplier
+2022-10-02T13:58:39.588Z [store-api] info GET /supplier
+2022-10-02T13:59:22.193Z [store-api] error PUT  - connect is not a function
+2022-10-02T14:00:18.682Z [store-api] error PUT  - Supplier ID, Name, CNPJ, Email e Address são obrigatórios!
+2022-10-02T14:00:25.934Z [store-api] info PUT /supplier - null
+2022-10-02T14:00:34.734Z [store-api] info GET /supplier
+2022-10-02T14:00:41.979Z [store-api] info PUT /supplier - {"supplierId":2,"name":"Eletro La 2","cnpj":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T14:00:45.488Z [store-api] info GET /supplier
+2022-10-02T14:00:50.670Z [store-api] info POST /supplier - {"supplierId":5,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T14:00:52.487Z [store-api] info POST /supplier - {"supplierId":6,"name":"E Eletronics","cnpj":"11123478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T14:00:56.920Z [store-api] info DELETE /supplier
+2022-10-02T14:00:59.833Z [store-api] info GET /supplier
+2022-10-02T19:26:28.794Z [store-api] info GET /product
+2022-10-02T19:26:30.970Z [store-api] error POST  - Name, Description, Value, Stock e Supplier ID são obrigatórios!
+2022-10-02T19:26:37.419Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:26:42.517Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:26:46.042Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:27:25.671Z [store-api] info GET /supplier
+2022-10-02T19:27:33.837Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:27:36.922Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:32:44.018Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:32:47.431Z [store-api] error POST  - Supplier ID informado não existe!
