@@ -3,7 +3,7 @@ import SaleService from "../services/sale.service.js"
 async function createSale(req, res, next) {
     try{
         let sale = req.body;
-        if( !sale.value || !sale.date || !sale.client_id || !sale.product_id ) {
+        if( !sale.value || !sale.date || !sale.clientId || !sale.productId ) {
             throw new Error("Value, Date, Client ID e Product ID são obrigatórios!")
         }
         sale = await SaleService.createSale(sale)
@@ -16,7 +16,7 @@ async function createSale(req, res, next) {
 
 async function getSales(req, res, next) {
     try {
-        res.send(await SaleService.getSales(req.query.product_id));
+        res.send(await SaleService.getSales(req.query.productId));
         logger.info(`GET /sale`);
     } catch (err) {
         next(err);
@@ -35,7 +35,7 @@ async function getSale(req, res, next) {
 async function updateSale(req, res, next) {
     try {
         let sale = req.body;
-        if( !sale.sale_id || !sale.value || !sale.date || !sale.client_id || !sale.product_id ) {
+        if( !sale.saleId || !sale.value || !sale.date || !sale.clientId || !sale.productId ) {
             throw new Error("Sale ID, Value, Date, Client ID e Product ID são obrigatórios!")
         }
         sale = await SaleService.updateSale(sale);

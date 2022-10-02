@@ -4,10 +4,10 @@ import ProductRepository from "../repositories/product.repository.js"
 
 async function createSale(sale){
     let error = "";
-    if(! await ClientRepository.getClient(sale.client_id)) {
+    if(! await ClientRepository.getClient(sale.clientId)) {
         error = "Client ID informado não existe!";
     }  
-    const product = await ProductRepository.getProduct(sale.product_id);
+    const product = await ProductRepository.getProduct(sale.productId);
     if(!product) {
         error += "Product ID informado não existe!";
     }     
@@ -39,10 +39,10 @@ async function getSale(id){
 
 async function updateSale(sale){
     let error = "";
-    if(! await ClientRepository.getClient(sale.client_id)) {
+    if(! await ClientRepository.getClient(sale.clientId)) {
         error = "Client ID informado não existe!";
     }  
-    if(! await ProductRepository.getProduct(sale.product_id)) {
+    if(! await ProductRepository.getProduct(sale.productId)) {
         error += "Product ID informado não existe!";
     }     
     if(error) {
@@ -54,7 +54,7 @@ async function updateSale(sale){
 async function deleteSale(id){
     const sale = await SaleRepository.getSale(id);
     if(sale){
-        const product = await ProductRepository.getProduct(sale.product_id);
+        const product = await ProductRepository.getProduct(sale.productId);
         await SaleRepository.deleteSale(id);
         product.stock++;
         await ProductRepository.updateProduct(product);

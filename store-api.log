@@ -159,3 +159,32 @@
 2022-10-02T19:27:36.922Z [store-api] error POST  - Supplier ID informado não existe!
 2022-10-02T19:32:44.018Z [store-api] error POST  - Supplier ID informado não existe!
 2022-10-02T19:32:47.431Z [store-api] error POST  - Supplier ID informado não existe!
+2022-10-02T19:33:06.994Z [store-api] info POST /product - {"productId":9,"name":"Mouse DELL","description":"Mouse DELL Laser","value":"200","stock":2,"supplierId":4}
+2022-10-02T19:43:41.019Z [store-api] info GET /client
+2022-10-02T19:44:28.974Z [store-api] error POST  - Value, Date, Client ID e Product ID são obrigatórios!
+2022-10-02T19:44:36.465Z [store-api] error POST  - connect is not a function
+2022-10-02T19:45:40.293Z [store-api] error POST  - connect is not a function
+2022-10-02T19:46:09.970Z [store-api] error POST  - conn is not defined
+2022-10-02T19:46:17.696Z [store-api] info POST /sale - {"saleId":11,"value":"6500","date":"2000-01-01","clientId":2,"productId":8}
+2022-10-02T19:47:29.043Z [store-api] error GET  - connect is not a function
+2022-10-02T19:47:37.311Z [store-api] info GET /sale
+2022-10-02T19:49:33.211Z [store-api] info GET /sale
+2022-10-02T19:50:32.692Z [store-api] info GET /sale
+2022-10-02T19:53:36.680Z [store-api] info GET /sale
+2022-10-02T19:53:48.523Z [store-api] info GET /sale
+2022-10-02T19:54:01.931Z [store-api] info GET /sale
+2022-10-02T19:55:54.536Z [store-api] info GET /sale
+2022-10-02T19:56:53.207Z [store-api] info GET /sale
+2022-10-02T19:56:56.057Z [store-api] info GET /sale
+2022-10-02T19:59:29.152Z [store-api] info POST /sale - {"saleId":12,"value":"6500","date":"2000-01-01","clientId":2,"productId":8}
+2022-10-02T19:59:32.362Z [store-api] info GET /sale
+2022-10-02T20:03:16.037Z [store-api] info GET /sale
+2022-10-02T20:03:21.936Z [store-api] info DELETE /sale
+2022-10-02T20:03:24.249Z [store-api] info GET /sale
+2022-10-02T20:06:31.393Z [store-api] info PUT /sale - undefined
+2022-10-02T20:06:35.714Z [store-api] info GET /sale
+2022-10-02T20:07:54.635Z [store-api] info PUT /sale - {"saleId":4,"value":"3500","date":"2000-01-01","clientId":2,"productId":2}
+2022-10-02T20:08:23.680Z [store-api] info PUT /sale - {"saleId":6,"value":"50","date":"2000-05-05","clientId":4,"productId":3}
+2022-10-02T20:12:18.566Z [store-api] info GET /product
+2022-10-02T20:12:29.983Z [store-api] error DELETE  - product is not defined
+2022-10-02T20:13:58.904Z [store-api] error DELETE  - Não é possível excluir, pois já houve vendas com este produto!
