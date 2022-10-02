@@ -119,3 +119,9 @@
 2022-10-02T12:37:21.397Z [store-api] info GET /sale
 2022-10-02T12:37:49.236Z [store-api] info GET /sale
 2022-10-02T12:37:51.896Z [store-api] info GET /sale
+2022-10-02T13:53:40.521Z [store-api] info GET /client
+2022-10-02T13:54:00.596Z [store-api] info GET /client
+2022-10-02T13:54:03.665Z [store-api] info GET /client
+2022-10-02T13:54:08.000Z [store-api] info POST /client - {"clientId":7,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:54:11.258Z [store-api] info POST /client - {"clientId":8,"name":"João","cpf":"23478765422","phone":"199999999","email":"lucas@gmail.com","address":"Rua XYZ do SUL, n100"}
+2022-10-02T13:54:33.634Z [store-api] error PUT  - Client ID, Name, CPF, Email e Address são obrigatórios!
