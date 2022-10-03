@@ -188,3 +188,15 @@
 2022-10-02T20:12:18.566Z [store-api] info GET /product
 2022-10-02T20:12:29.983Z [store-api] error DELETE  - product is not defined
 2022-10-02T20:13:58.904Z [store-api] error DELETE  - Não é possível excluir, pois já houve vendas com este produto!
+2022-10-02T20:14:37.497Z [store-api] info DELETE /product
+2022-10-02T20:14:46.132Z [store-api] info GET /sale
+2022-10-02T20:14:53.947Z [store-api] error DELETE  - Não é possível excluir, pois já houve vendas com este produto!
+2022-10-02T20:20:25.333Z [store-api] info POST /product - {"productId":10,"name":"PC Positivo","description":"PC Positivo Topper","value":"2000","stock":500,"supplierId":3}
+2022-10-02T20:20:26.787Z [store-api] info POST /product - {"productId":11,"name":"PC Positivo","description":"PC Positivo Topper","value":"2000","stock":500,"supplierId":3}
+2022-10-02T20:20:38.569Z [store-api] info POST /sale - {"saleId":13,"value":"6500","date":"2000-01-01","clientId":2,"productId":10}
+2022-10-02T20:20:42.737Z [store-api] info POST /sale - {"saleId":14,"value":"6500","date":"2000-01-01","clientId":3,"productId":10}
+2022-10-02T20:20:45.607Z [store-api] info POST /sale - {"saleId":15,"value":"6500","date":"2000-01-01","clientId":4,"productId":10}
+2022-10-02T20:20:48.518Z [store-api] info POST /sale - {"saleId":16,"value":"6500","date":"2000-01-01","clientId":5,"productId":10}
+2022-10-03T00:30:51.620Z [store-api] error GET  - column sales.supplierId does not exist
+2022-10-03T00:31:03.245Z [store-api] error GET  - column sales.supplierId does not exist
+2022-10-03T00:31:05.725Z [store-api] error GET  - column sales.supplierId does not exist
