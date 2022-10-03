@@ -200,3 +200,11 @@
 2022-10-03T00:30:51.620Z [store-api] error GET  - column sales.supplierId does not exist
 2022-10-03T00:31:03.245Z [store-api] error GET  - column sales.supplierId does not exist
 2022-10-03T00:31:05.725Z [store-api] error GET  - column sales.supplierId does not exist
+2022-10-03T00:32:16.160Z [store-api] info GET /sale
+2022-10-03T00:33:15.341Z [store-api] info GET /sale
+2022-10-03T00:33:32.227Z [store-api] info GET /sale
+2022-10-03T00:33:37.418Z [store-api] info GET /sale
+2022-10-03T00:33:40.524Z [store-api] info GET /sale
+2022-10-03T01:19:30.717Z [store-api] error POST  - ProductService.createProductInfo is not a function
+2022-10-03T01:20:32.584Z [store-api] error POST  - getClient is not a function
+2022-10-03T01:20:48.688Z [store-api] error POST  - getClient is not a function

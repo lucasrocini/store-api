@@ -2,6 +2,7 @@ import ProductRepository from "../repositories/product.repository.js"
 import SupplierRepository from "../repositories/supplier.repository.js"
 import SaleRepository from "../repositories/sale.repository.js"
 import { Error } from "sequelize";
+import ProductInfoRepository from "../repositories/productInfo.repository.js";
 
 async function createProduct(product){
     if(await SupplierRepository.getSupplier(product.supplierId)) {
@@ -33,10 +34,15 @@ async function deleteProduct(id){
     await ProductRepository.deleteProduct(id);
 }
 
+async function createProductInfo(productInfo){
+    await ProductInfoRepository.createProductInfo(productInfo);
+}
+
 export default{
     createProduct,
     getProducts,
     getProduct,
     updateProduct,
-    deleteProduct
+    deleteProduct,
+    createProductInfo
 }
