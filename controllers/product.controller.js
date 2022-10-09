@@ -92,7 +92,7 @@ async function createReview(req, res, next){
         }
         await ProductService.createReview(params.review, params.productId);
         res.end();
-        logger.info(`PUT /product/review - `)
+        logger.info(`POST /product/review/`)
     } catch (error) {
         next(error);
     }
@@ -102,11 +102,30 @@ async function deleteReview(req, res, next){
     try {
         await ProductService.deleteReview(req.params.id, req.params.index);
         res.end();
-        logger.info(`DELETE /product/review - `)
+        logger.info(`DELETE /product/${req.params.id}/review/${req.params.index}`)
     } catch (error) {
         next(error);
     }
 }
+
+async function getProductsInfo(req, res, next) {
+    try {
+        res.send(await ProductService.getProductsInfo());
+        logger.info(`GET /product/info`);
+    } catch (err) {
+        next(err);
+    }
+}
+
+async function deleteProductInfo(req, res, next) {
+    try {
+        res.send(await ProductService.deleteProductInfo(req.params.id));
+        logger.info(`DELETE /product/info`);
+    } catch (err) {
+        next(err);
+    }
+}
+
 
 export default {
     createProduct,
@@ -117,5 +136,7 @@ export default {
     createProductInfo,
     updateProductInfo,
     createReview,
-    deleteReview
+    deleteReview,
+    getProductsInfo,
+    deleteProductInfo
 }

@@ -245,3 +245,19 @@
 2022-10-09T21:16:13.167Z [store-api] info PUT /product/review - 
 2022-10-09T21:16:15.696Z [store-api] info GET /product
 2022-10-09T21:16:21.779Z [store-api] error DELETE  - Cannot read properties of null (reading 'reviews')
+2022-10-09T21:22:02.060Z [store-api] info DELETE /product/review - 
+2022-10-09T21:22:07.257Z [store-api] info GET /product
+2022-10-09T21:34:13.242Z [store-api] error GET  - invalid input syntax for type integer: "info"
+2022-10-09T21:34:45.416Z [store-api] info GET /product/info
+2022-10-09T22:49:23.020Z [store-api] info GET /product
+2022-10-09T22:49:27.232Z [store-api] info GET /product
+2022-10-09T22:49:33.704Z [store-api] info GET /product
+2022-10-09T22:49:41.495Z [store-api] info POST /product/info - {"productId":4,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"63435005704b9f75dbcfe47d"}
+2022-10-09T22:49:56.138Z [store-api] info GET /product
+2022-10-09T22:51:08.588Z [store-api] info DELETE /product/info
+2022-10-09T22:51:12.505Z [store-api] info GET /product
+2022-10-09T22:51:15.039Z [store-api] info GET /product
+2022-10-09T22:51:19.177Z [store-api] info DELETE /product/info
+2022-10-09T22:51:20.022Z [store-api] info DELETE /product/info
+2022-10-09T22:51:21.029Z [store-api] info DELETE /product/info
+2022-10-09T22:51:22.616Z [store-api] info GET /product

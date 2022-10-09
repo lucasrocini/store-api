@@ -58,10 +58,37 @@ async function deleteReview(productId, index){
     } 
 }
 
+async function getProductsInfo(){
+    const client = getClient();
+    try {
+        await client.connect();
+        return await client.db("store").collection("productInfo").find({}).toArray();
+    } catch (error) {
+        throw error;
+    } finally {
+        await client.close();
+    }
+}
+
+async function deleteProductInfo(productId){
+    const client = getClient();
+    try {
+        await client.connect();
+        return await client.db("store").collection("productInfo").deleteOne({productId});
+    } catch (error) {
+        throw error;
+    } finally {
+        await client.close();
+    }
+}
+
+
 export default {
     createProductInfo,
     updateProductInfo,
     getProductInfo,
     createReview,
-    deleteReview
+    deleteReview,
+    getProductsInfo,
+    deleteProductInfo
 }
