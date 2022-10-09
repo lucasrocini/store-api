@@ -18,8 +18,7 @@ async function updateProductInfo(productInfo){
         await client.connect();
         await client.db("store").collection("productInfo").updateOne(
             {productId: productInfo.productId},
-            {$set: {...productInfo}}
-            );
+            {$set: {...productInfo}} );
     } catch (error) {
         throw error;
     } finally {
@@ -39,8 +38,30 @@ async function getProductInfo(productId){
     }
 }
 
+async function createReview(review, productId){
+    try {
+        const productInfo = await getProductInfo(productId);
+        productInfo.reviews.push(review);
+        await updateProductInfo(productInfo);
+    } catch (error) {
+        throw error;
+    } 
+}
+
+async function deleteReview(productId, index){
+    try {
+        const productInfo = await getProductInfo(productId);
+        productInfo.reviews.splice(index, 1);
+        await updateProductInfo(productInfo);
+    } catch (error) {
+        throw error;
+    } 
+}
+
 export default {
     createProductInfo,
     updateProductInfo,
-    getProductInfo
+    getProductInfo,
+    createReview,
+    deleteReview
 }
