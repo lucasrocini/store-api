@@ -208,3 +208,21 @@
 2022-10-03T01:19:30.717Z [store-api] error POST  - ProductService.createProductInfo is not a function
 2022-10-03T01:20:32.584Z [store-api] error POST  - getClient is not a function
 2022-10-03T01:20:48.688Z [store-api] error POST  - getClient is not a function
+2022-10-03T01:22:26.382Z [store-api] info POST /product/info - {"productId":32,"category":"Mouse LENOVO Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"633a3952441a66934d0dd177"}
+2022-10-09T19:43:03.893Z [store-api] error POST  - connection <monitor> to 54.94.56.66:27017 closed
+2022-10-09T19:43:25.340Z [store-api] info GET /product
+2022-10-09T19:44:04.919Z [store-api] error POST  - connection <monitor> to 54.94.86.99:27017 closed
+2022-10-09T19:46:15.899Z [store-api] error POST  - connection <monitor> to 54.94.86.99:27017 closed
+2022-10-09T19:57:46.092Z [store-api] info POST /product/info - {"productId":35,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"634327bac31923519bb836ab"}
+2022-10-09T20:17:12.786Z [store-api] info PUT /product/info - {"productId":32,"category":"Mouse LENOVO Sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T20:18:18.057Z [store-api] info GET /product
+2022-10-09T20:18:28.574Z [store-api] info GET /product
+2022-10-09T20:27:04.355Z [store-api] error GET  - parseint is not defined
+2022-10-09T20:27:25.411Z [store-api] info GET /product
+2022-10-09T20:28:15.971Z [store-api] info GET /product
+2022-10-09T20:28:30.955Z [store-api] info POST /product - {"productId":12,"name":"PC Positivo","description":"PC Positivo Topper","value":"2000","stock":500,"supplierId":3}
+2022-10-09T20:28:40.062Z [store-api] info POST /product/info - {"productId":12,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"63432ef8747696259667e181"}
+2022-10-09T20:28:43.107Z [store-api] info GET /product
+2022-10-09T20:28:53.640Z [store-api] info GET /product
+2022-10-09T20:29:33.979Z [store-api] info GET /product
+2022-10-09T20:32:11.219Z [store-api] info GET /product
