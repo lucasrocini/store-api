@@ -261,3 +261,30 @@
 2022-10-09T22:51:20.022Z [store-api] info DELETE /product/info
 2022-10-09T22:51:21.029Z [store-api] info DELETE /product/info
 2022-10-09T22:51:22.616Z [store-api] info GET /product
+2022-10-09T22:52:17.868Z [store-api] info GET /product
+2022-10-09T22:52:20.141Z [store-api] info DELETE /product/info
+2022-10-09T22:52:22.813Z [store-api] info GET /product
+2022-10-09T23:15:20.646Z [store-api] error POST  - option usernewurlparser is not supported
+2022-10-09T23:15:40.953Z [store-api] info POST /product/info - {"productId":13,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:15:43.321Z [store-api] info POST /product/info - {"productId":13,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:17:42.240Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:17:42.982Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:20:17.747Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:22:28.900Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:22:38.644Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:22:39.375Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:23:35.464Z [store-api] info DELETE /product/info
+2022-10-09T23:23:57.607Z [store-api] info DELETE /product/info
+2022-10-09T23:24:02.246Z [store-api] info DELETE /product/info
+2022-10-09T23:24:05.709Z [store-api] info DELETE /product/info
+2022-10-09T23:24:20.919Z [store-api] info POST /product/info - {"productId":15,"category":"Mouse HP Laser","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:24:36.139Z [store-api] info PUT /product/info - {"productId":15,"category":"Mouse LENOVO Sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-10-09T23:25:02.608Z [store-api] error POST  - query.exec is not a function
+2022-10-09T23:25:03.335Z [store-api] error POST  - query.exec is not a function
+2022-10-09T23:25:07.972Z [store-api] error POST  - query.exec is not a function
+2022-10-09T23:26:19.436Z [store-api] error GET  - query.exec is not a function
+2022-10-09T23:27:28.075Z [store-api] info GET /product/info
+2022-10-09T23:27:45.751Z [store-api] info POST /product/review/
+2022-10-09T23:27:46.874Z [store-api] info POST /product/review/
+2022-10-09T23:27:47.632Z [store-api] info POST /product/review/
+2022-10-09T23:27:57.152Z [store-api] error GET  - Cannot set properties of null (setting 'info')
